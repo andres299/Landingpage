@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    background-image: url(/img/playa.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding-top:  23%;
+}
+h2{
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+    color: black;
+    margin-bottom: 25%;
+    background-color: transparent;
+    width: 9%;
+    font-size: 90%;
+    border: 2px solid black;
+    line-height: 60px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+
+}
+.boton:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    border: 2px solid black;
+    cursor: pointer;
+}
+ 
+.parrafo1{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.parrafo2{
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.parrafo3{
+    width: 33%;
+    background-color:black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.parrafo4{
+    width: 33%;
+    background-color:white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.parrafo5{
+    width: 33%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.parrafos{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.parrafos div{
+    text-align: center;
+}
